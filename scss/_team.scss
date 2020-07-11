@@ -1,0 +1,19 @@
+.team-member{
+    background-color: rgba(00,00,00,0.6);
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+   transition: all 0.4 ease-in-out;
+}
+
+.team-member:hover{
+    opacity: 1;
+}
